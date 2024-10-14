@@ -1,0 +1,33 @@
+.css-selector {
+    background: #131a30;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.inner-banner{
+    padding: 130px 0px 60px 0px;
+}
+@media (min-width: 992px) {
+    .inner-banner{
+        padding: 60px 0px;
+    }
+}
+
+.bg-banner{
+    // background-image: url(../img/bg.png);
+    background-attachment: fixed;
+}

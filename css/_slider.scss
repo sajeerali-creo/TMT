@@ -1,0 +1,48 @@
+.banner{
+    background-image: url(../img/banner.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    min-height: auto;
+    padding: 60px 0px;
+}
+
+@media (min-width: 992px) {
+    .banner{
+        min-height: 700px;
+        background-position: bottom;
+        padding: 200px 0px;
+    }
+    
+}
+
+.inner-banner{
+    padding: 60px 0px;
+    background-color: #222222;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (min-width: 992px) {
+    .inner-banner{
+        padding: 80px 0px;
+        background-color: #222222;
+    }
+}
+.abt-banner{
+    background-image: url(../img/abt-banner.jpg);
+}
+.product-banner{
+    background-image: url(../img/p-banner.jpg);
+}
+.contact-banner{
+    background-image: url(../img/contact.jpg);
+}
+
+.k-abt-banner{
+    background-image: url(../img/w-abt-banner.jpg);
+}
+
+.k-product-banner{
+    background-image: url(../img/w-p-banner.jpg);
+}

@@ -1,0 +1,41 @@
+.menu-lg {
+    li {
+        a {
+            font-size: 14px;
+            letter-spacing: 2px;
+            color: var(--black);
+        }
+    }
+}
+
+.lg-menu-drawer {
+    .products {
+        background-color: var(--black);
+        color: var(--white);
+        display: block;
+        padding: 10px 16px;
+        border-radius: 6px;
+        transition: all 0.3s ease-out;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 14px;
+        &:hover{
+            background-color: #000;
+        }
+    }
+}
+.offcanvas{
+    background-color: black;
+    text-align: center;
+    height: 100vh;
+    a{
+        color: var(--white);
+    }
+}
+
+.head{
+    position: absolute;
+    width: 100%;
+    padding: 48px 0px;
+    z-index: 2;
+}
