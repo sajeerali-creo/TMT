@@ -69,8 +69,12 @@ li {
 }
 
 .menu {
-  color: var(--white);
+  color: var(--black);
   font-size: 32px;
+}
+
+.no-height {
+  height: auto !important;
 }
 
 .menu-lg li a {
@@ -98,9 +102,14 @@ li {
   background-color: black;
   text-align: center;
   height: 100vh;
+  width: 300px !important;
 }
 .offcanvas a {
   color: var(--white);
+}
+
+.mob-logo {
+  height: 42px;
 }
 
 .head {
@@ -603,21 +612,13 @@ h1, h2, h3, h4, h5, h6, span, a, p {
   }
 }
 .abt-banner {
-  background-image: url(../img/abt-banner.jpg);
+  background-image: url(../img/abt-bg.jpg);
 }
 
 .product-banner {
-  background-image: url(../img/p-banner.jpg);
+  background-image: url(../img/produtcs-bg.jpg);
 }
 
 .contact-banner {
-  background-image: url(../img/contact.jpg);
-}
-
-.k-abt-banner {
-  background-image: url(../img/w-abt-banner.jpg);
-}
-
-.k-product-banner {
-  background-image: url(../img/w-p-banner.jpg);
+  background-image: url(../img/contact-bg.jpg);
 }/*# sourceMappingURL=main.css.map */
